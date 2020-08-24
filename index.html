@@ -11,6 +11,7 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link href="https://fonts.google.com/specimen/Raleway" rel="stylesheet" />
 
     <title>Frontend Mentor | Fylo data storage component</title>
 
@@ -18,6 +19,45 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <div class="outer-div">
+      <div class="container">
+        <div class="left">
+          <div class="left__logo-container">
+            <img src="images/logo.svg" />
+          </div>
+
+          <div class="left__icon-list">
+            <div class="left__icon">
+              <img src="images/icon-document.svg" alt="Kiwi standing on oval" />
+            </div>
+            <div class="left__icon">
+              <img src="images/icon-folder.svg" alt="Kiwi standing on oval" />
+            </div>
+            <div class="left__icon">
+              <img src="images/icon-upload.svg" alt="Kiwi standing on oval" />
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <div class="right__content">
+            <p>You've used <strong>815 GB</strong> of your storage</p>
+            <div class="right__meter">
+              <span style="width: 72%;"></span>
+            </div>
+            <div class="right__bar-label">
+              <p><span>0</span> GB</p>
+              <p><span>1000</span> GB</p>
+            </div>
+          </div>
+          <div class="bubble-container">
+            <div class="speech-bubble">
+              <p class="speech-bubble__gb-amount">185</p>
+              <p class="speech-bubble__gb-left">GB LEFT</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
