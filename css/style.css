@@ -52,15 +52,14 @@ body {
   background-color: #1d2c67;
   border-radius: 10px;
   position: relative;
-  padding-top: 30px;
-  padding-bottom: 20px; }
+  padding-top: 15px;
+  padding-bottom: 15px; }
   .right__content {
     width: 80%;
     margin: auto; }
   .right__meter {
     width: 100%;
     height: 15px;
-    /* Can be anything */
     position: relative;
     background: #0c122c;
     -moz-border-radius: 25px;
@@ -132,6 +131,10 @@ body {
     color: #848794;
     font-size: 16px;
     margin-left: 10px; }
+
+.icon {
+  width: 25px;
+  height: 25px; }
 
 @media only screen and (max-width: 768px) {
   .outer-div {

@@ -47,9 +47,6 @@ body {
   margin-right: 20px;
   border-radius: 10px;
   border-top-right-radius: 100px;
-  // display: flex;
-  // flex-direction: column;
-  // justify-content: space-around;
   padding: 30px;
 
   &__logo-container {
@@ -70,12 +67,11 @@ body {
 
 .right {
   flex: 65%;
-  // height: 25vh;
   background-color: $darkBlue;
   border-radius: 10px;
   position: relative;
-  padding-top: 30px;
-  padding-bottom: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 
   &__content {
     width: 80%;
@@ -84,7 +80,7 @@ body {
 
   &__meter {
     width: 100%;
-    height: 15px; /* Can be anything */
+    height: 15px;
     position: relative;
     background: $veryDarkBlue;
     -moz-border-radius: 25px;
@@ -131,7 +127,6 @@ body {
       font-size: 16px;
 
       span {
-        // font-weight: 100;
         font-size: 12px;
       }
     }
@@ -187,6 +182,11 @@ body {
     font-size: 16px;
     margin-left: 10px;
   }
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
 }
 
 @media only screen and (max-width: 768px) {
