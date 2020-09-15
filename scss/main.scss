@@ -123,12 +123,8 @@ body {
     justify-content: space-between;
 
     p {
-      font-weight: 400;
-      font-size: 16px;
-
-      span {
-        font-size: 12px;
-      }
+      font-weight: 700;
+      font-size: 14px;
     }
   }
 }
@@ -153,7 +149,7 @@ body {
   align-items: center;
 
   p {
-    margin: 0 0 10px;
+    margin: 0 3px 10px;
 
     :last-of-type {
       margin-bottom: 0;
@@ -179,8 +175,8 @@ body {
   &__gb-left {
     // margin: 0 !important;
     color: $grayishBlue;
-    font-size: 16px;
-    margin-left: 10px;
+    font-size: 12px;
+    margin-left: 15px;
   }
 }
 

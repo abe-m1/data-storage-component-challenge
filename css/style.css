@@ -90,10 +90,8 @@ body {
     display: flex;
     justify-content: space-between; }
     .right__bar-label p {
-      font-weight: 400;
-      font-size: 16px; }
-      .right__bar-label p span {
-        font-size: 12px; }
+      font-weight: 700;
+      font-size: 14px; }
 
 .bubble-container {
   position: absolute;
@@ -113,7 +111,7 @@ body {
   justify-content: center;
   align-items: center; }
   .speech-bubble p {
-    margin: 0 0 10px; }
+    margin: 0 3px 10px; }
     .speech-bubble p :last-of-type {
       margin-bottom: 0; }
   .speech-bubble::after {
@@ -129,8 +127,8 @@ body {
     color: #000; }
   .speech-bubble__gb-left {
     color: #848794;
-    font-size: 16px;
-    margin-left: 10px; }
+    font-size: 12px;
+    margin-left: 15px; }
 
 .icon {
   width: 25px;
